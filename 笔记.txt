@@ -1,3 +1,4 @@
+adb
 1.查看设备 	    adb devices
 2.查看包 	    adb shell pm list package
 3.查看第三方包 	adb shell pm list package -3
@@ -5,3 +6,12 @@
 5.随机操作       adb shell monkey -p 包名 -v -v -v 30(执行30次) -v代表日志级别
 6.查看日志 	    adb logcat -v time 
 7.模拟屏幕点击   adb shell input tap x y 坐标
+
+
+git
+1.克隆： git clone ***
+2.检查本地是否有更新： git status 有红色就有更新
+3.提交改动文件到暂存区： git add.   或者git add 文件名
+4.提交到本地分支：git commit -m "提交备注"
+5.提交到远程仓库：git push
+6.拉取远程仓库代码:git pull
