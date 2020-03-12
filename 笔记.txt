@@ -11,7 +11,7 @@ adb
 git
 1.克隆： git clone ***
 2.检查本地是否有更新： git status 有红色就有更新
-3.提交改动文件到暂存区： git add.   或者git add 文件名
+3.提交改动文件到暂存区： git add .  所有有变动的文件都加到暂存区  或者git add 文件名
 4.提交到本地分支：git commit -m "提交备注"
 5.提交到远程仓库：git push
 6.拉取远程仓库代码:git pull
