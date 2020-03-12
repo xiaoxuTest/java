@@ -1,1 +1,7 @@
-123
+1.查看设备 	    adb devices
+2.查看包 	    adb shell pm list package
+3.查看第三方包 	adb shell pm list package -3
+4.查看内存 	    adb shell top
+5.随机操作       adb shell monkey -p 包名 -v -v -v 30(执行30次) -v代表日志级别
+6.查看日志 	    adb logcat -v time 
+7.模拟屏幕点击   adb shell input tap x y 坐标
