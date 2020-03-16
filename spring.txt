@@ -1,0 +1,14 @@
+spring
+一.spring  IOC两个容器：
+1.beanFactory
+	这个是最底层的接口，在启动的时候不会实例化Bean，用bean的时候才实例化。
+2.ApplicationContext
+	继承beanFactory，包括beanFactory的所有功能。启动的时候实例化bean。
+
+二.bean的作用域
+在xml中用scope标签配置，默认是singleton。spring支持五个作用于，分别是singleton、prototype、request、session和global session
+singleton：单例，容器中存在一个bean实例，多次实例化只生产一个对象，每次都用的这个对象的。
+prototype：多例，每次调用bean，都生产一个新的对象，相当于 new Class()
+其他的三个等用刀再学习
+
+三.DI(依赖注入)
